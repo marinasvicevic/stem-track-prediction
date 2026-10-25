@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 120" width="820" height="120" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Box 1: 1045 -->
+  <rect x="10" y="50" width="120" height="54" rx="6" fill="#E8F0FE" stroke="#4472C4" stroke-width="2"/>
+  <text x="70" y="72" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">N = 1,045</text>
+  <text x="70" y="92" text-anchor="middle" font-size="12" fill="#555">Raw responses</text>
+
+  <!-- Arrow 1 -->
+  <line x1="130" y1="77" x2="195" y2="77" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="162" y="68" text-anchor="middle" font-size="11" fill="#C45000" font-weight="bold">−1</text>
+  <text x="162" y="100" text-anchor="middle" font-size="10" fill="#777">invalid</text>
+
+  <!-- Box 2: 1044 -->
+  <rect x="197" y="56" width="100" height="42" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="247" y="83" text-anchor="middle" font-size="15" font-weight="bold" fill="#4472C4">1,044</text>
+
+  <!-- Arrow 2 -->
+  <line x1="297" y1="77" x2="362" y2="77" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="330" y="68" text-anchor="middle" font-size="11" fill="#C45000" font-weight="bold">−1</text>
+  <text x="330" y="100" text-anchor="middle" font-size="10" fill="#777">duplicate</text>
+
+  <!-- Box 3: 1043 -->
+  <rect x="364" y="56" width="100" height="42" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="414" y="83" text-anchor="middle" font-size="15" font-weight="bold" fill="#4472C4">1,043</text>
+
+  <!-- Arrow 3 -->
+  <line x1="464" y1="77" x2="529" y2="77" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="496" y="68" text-anchor="middle" font-size="11" fill="#C45000" font-weight="bold">−8</text>
+  <text x="496" y="100" text-anchor="middle" font-size="10" fill="#777">straight-liners</text>
+
+  <!-- Box 4: 1035 final -->
+  <rect x="531" y="50" width="130" height="54" rx="6" fill="#E8F0FE" stroke="#4472C4" stroke-width="2"/>
+  <text x="596" y="72" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">N = 1,035</text>
+  <text x="596" y="92" text-anchor="middle" font-size="12" fill="#555">Final dataset</text>
+
+  <!-- Arrow 4 to features -->
+  <line x1="661" y1="77" x2="706" y2="77" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Box 5: features -->
+  <rect x="708" y="50" width="100" height="54" rx="6" fill="#F5F5F5" stroke="#666" stroke-width="1.2"/>
+  <text x="758" y="72" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">96</text>
+  <text x="758" y="90" text-anchor="middle" font-size="11" fill="#555">features</text>
+
+
+</svg>

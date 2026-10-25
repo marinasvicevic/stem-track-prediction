@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated output files (not tracked)
+*.pkl
+*.pickle
+
+# Generated outputs
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (for table generation)
+node_modules/
+package-lock.json

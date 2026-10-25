@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- ── Dashed frame: pipeline within CV fold ── -->
+  <rect x="5" y="30" width="870" height="155" rx="6" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="14" y="24" font-size="12" fill="#777" font-style="italic">Within each cross-validation fold</text>
+
+  <!-- ══ Box 1: Training fold ══ -->
+  <rect x="20" y="75" width="100" height="55" rx="6" fill="#E8F0FE" stroke="#4472C4" stroke-width="2"/>
+  <text x="70" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Training</text>
+  <text x="70" y="118" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">fold</text>
+
+  <!-- Arrow -->
+  <line x1="120" y1="102" x2="160" y2="102" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ══ Box 2: Preprocessing ══ -->
+  <rect x="162" y="48" width="185" height="112" rx="6" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <text x="254" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">Preprocessing</text>
+
+  <!-- Sub-box: numeric -->
+  <rect x="174" y="76" width="162" height="32" rx="6" fill="#FFF2E6" stroke="#ED7D31" stroke-width="1.2"/>
+  <text x="255" y="97" text-anchor="middle" font-size="12" fill="#333">Imputation + Scaling</text>
+
+  <!-- Sub-box: binary -->
+  <rect x="174" y="116" width="162" height="32" rx="6" fill="#F5F5F5" stroke="#666" stroke-width="1.2"/>
+  <text x="255" y="137" text-anchor="middle" font-size="12" fill="#333">Imputation only</text>
+
+  <!-- Arrow -->
+  <line x1="347" y1="102" x2="387" y2="102" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ══ Box 3: Feature selection ══ -->
+  <rect x="389" y="65" width="160" height="75" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="469" y="93" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Feature</text>
+  <text x="469" y="111" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">selection</text>
+  <text x="469" y="130" text-anchor="middle" font-size="11" fill="#777">ANOVA F-test (k tuned)</text>
+
+  <!-- Arrow -->
+  <line x1="549" y1="102" x2="589" y2="102" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ══ Box 4: Classifier ══ -->
+  <rect x="591" y="60" width="150" height="85" rx="6" fill="#E8F0FE" stroke="#4472C4" stroke-width="2"/>
+  <text x="666" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Classifier</text>
+  <text x="666" y="110" text-anchor="middle" font-size="12" fill="#555">LR | KNN | SVM</text>
+  <text x="666" y="126" text-anchor="middle" font-size="12" fill="#555">RF | XGBoost</text>
+
+  <!-- Arrow -->
+  <line x1="741" y1="102" x2="781" y2="102" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ══ Box 5: Predictions ══ -->
+  <rect x="783" y="75" width="78" height="55" rx="6" fill="#E8F0FE" stroke="#4472C4" stroke-width="2"/>
+  <text x="822" y="108" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">ŷ</text>
+
+  <!-- ══ Bottom row ══ -->
+  <rect x="162" y="205" width="320" height="42" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="322" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">Hyperparameter optimization</text>
+  <text x="322" y="240" text-anchor="middle" font-size="12" fill="#555">Stratified 5-fold CV, weighted F1 criterion</text>
+
+  <!-- Arrow -->
+  <line x1="482" y1="226" x2="530" y2="226" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Final evaluation -->
+  <rect x="532" y="205" width="230" height="42" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="647" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">Final evaluation</text>
+  <text x="647" y="240" text-anchor="middle" font-size="12" fill="#555">Held-out test set (N = 207)</text>
+
+</svg>
