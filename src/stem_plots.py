@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 STEM Track Prediction — Figure Generation Script
-Journal paper: Computer Applications in Engineering Education (CAEE)
+STEM Track Prediction — Figure Generation
 
 Reads results.pkl (saved by stem_analysis.py) and generates all 7 figures.
 Run this whenever you need to change figure appearance — no recomputation needed.

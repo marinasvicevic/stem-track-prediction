@@ -33,7 +33,7 @@ stem-track-prediction/
 │   ├── stem_analysis.py          # Main computation script (results + CSV export)
 │   └── stem_plots.py             # Figure generation script (reads results.pkl)
 ├── notebooks/
-│   └── STEM_Analysis_CAEE.ipynb  # Interactive Jupyter/Colab notebook
+│   └── STEM_Analysis.ipynb       # Interactive Jupyter/Colab notebook
 ├── figures/
 │   ├── fig2_preprocessing_flowchart.svg  # Data preprocessing flowchart
 │   └── fig3_pipeline.svg                 # ML pipeline diagram
@@ -91,7 +91,7 @@ The analysis script exports:
 #### Option 2: Jupyter Notebook
 
 ```bash
-jupyter notebook notebooks/STEM_Analysis_CAEE.ipynb
+jupyter notebook notebooks/STEM_Analysis.ipynb
 ```
 
 The notebook is also compatible with [Google Colab](https://colab.research.google.com/) — upload `STEM.xlsx` when prompted.

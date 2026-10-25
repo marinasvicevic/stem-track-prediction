@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 STEM Track Prediction — Computation Script
-Journal paper: Computer Applications in Engineering Education (CAEE)
+STEM Track Prediction — Binary Classification
 
 Usage:
     python stem_analysis.py          # runs all computation, saves results.pkl + CSV files
