@@ -2,13 +2,10 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Journal: CAEE](https://img.shields.io/badge/Journal-CAEE%20(Wiley)-orange.svg)](https://onlinelibrary.wiley.com/journal/10990542)
 
 Replication code and materials for the paper:
 
 > **Classifying Students' STEM and Non-STEM Educational Tracks Using Machine Learning: A Multi-Model Comparison with Interpretability and Fairness Assessment**
->
-> *Computer Applications in Engineering Education* (CAEE), Wiley
 
 ## Overview
 
@@ -161,12 +158,11 @@ Figures 2 and 3 are vector diagrams (SVG) designed for editing in Inkscape.
 If you use this code or methodology, please cite:
 
 ```bibtex
-@article{svicevic2026stem,
+@misc{svicevic2026stem,
   title={Classifying Students' {STEM} and Non-{STEM} Educational Tracks Using Machine Learning: A Multi-Model Comparison with Interpretability and Fairness Assessment},
   author={Svi\v{c}evi\'{c}, Marina and others},
-  journal={Computer Applications in Engineering Education},
   year={2026},
-  publisher={Wiley}
+  url={https://github.com/marinasvicevic/stem-track-prediction}
 }
 ```
 
