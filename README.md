@@ -160,8 +160,9 @@ If you use this code or methodology, please cite:
 ```bibtex
 @misc{svicevic2026stem,
   title={Classifying Students' {STEM} and Non-{STEM} Educational Tracks Using Machine Learning: A Multi-Model Comparison with Interpretability and Fairness Assessment},
-  author={Svi\v{c}evi\'{c}, Marina and others},
+  author={Svi\v{c}evi\'{c}, Marina and Milenkovi\'{c}, Aleksandar and Krsti\'{c}, Lazar and Sta\v{s}evi\'{c}, Filip and Maksimovi\'{c}, Aleksandra},
   year={2026},
+  institution={University of Kragujevac, Faculty of Science, Serbia},
   url={https://github.com/marinasvicevic/stem-track-prediction}
 }
 ```
